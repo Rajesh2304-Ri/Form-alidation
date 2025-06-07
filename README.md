@@ -37,5 +37,5 @@ Once all fields are valid, the submit button will be enabled.
 Click "Submit" to display a success message and clear the form.
 
 **Project Link**
- [View the project on GitHub] : 
+ [View the project on GitHub] : https://rajesh2304-ri.github.io/Form-alidation/
 
