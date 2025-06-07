@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container-form">
+        <div class="form">
+        <div class="form-heading">
+            <h1 class="form-title">Sign In</h1>
+        </div>
+        <form id="form">
+           
+            <input type="input" id="nameBox" placeholder="Enter your Name" required ><br>
+            <span id="nameError" class="error"> </span><br>
+            
+            <input type="email" id="emailBox" placeholder="Enter your Email" required ><br>
+            <span class="error" id="emailError"></span><br>
+             
+            <input type="password" id="password" placeholder="Minimum 6 digits" required minlength="6"><br>
+             <span class="error" id="passError"></span><br><br>
+           <div class="button">
+            <button id="btn" disabled>Submit</button><br><br>
+        
+            </div>
+            <div class="para">
+                <p>Already have an account ?</p>
+                <p class="loginbtn">Login</p>
+            </div>
+            
+
+        </form>
+        </div>
+    </div>
+
+<script src="Task1.js">
+    
+</script>
+
+</body>
+
+</html>
+
+ 
