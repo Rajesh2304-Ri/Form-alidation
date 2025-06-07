@@ -4,7 +4,7 @@ var nameInput = document.getElementById("nameBox")
 var email = document.getElementById("emailBox")
 var password = document.getElementById("password")
 var form = document.getElementById("form")
-var nameReg = /^[a-zA-Z]+$/
+var nameReg = /^[a-zA-Z\s]+$/
 var emailReg = /^[a-zA-Z0-9]+@gmail\.com$/
 
 
